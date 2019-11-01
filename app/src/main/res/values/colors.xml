@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="colorPrimary">#9eab56</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="lightGreen">#9eab56</color>
+    <color name="darkGreen">#666600</color>
+    <color name="whiteColor">#FFFFFF</color>
+    <color name="blackColor">#97131212</color>
+
+    <color name="black_dark">#212121</color>
+
+<color name="pharmColor">#23796A</color>
+
+    <color name="bgBottomNavigation">#fe485a</color>
+
+    <color name="purple">#003300</color>
+    <color name="orange">#ff6633</color>
+    <color name="sky">#33ccff</color>
+    <color name="darkblue">#330033</color>
+
+    <color name="background">#dcdcdc</color>
+    <color name="card">#dcfefe</color>
+
+
+
+
+
+
+
+</resources>

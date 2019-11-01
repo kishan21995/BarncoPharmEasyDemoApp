@@ -1,0 +1,1176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".HomeFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+<LinearLayout
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_margin="5dp"
+        android:gravity="center"
+        app:cardBackgroundColor="@color/whiteColor"
+        android:layout_width="180dp"
+        android:layout_height="150dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+
+            android:orientation="vertical"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:src="@drawable/medicine"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center"
+                android:layout_width="40dp"
+                android:layout_height="40dp"/>
+
+
+
+            <TextView
+                android:text="Order  "
+                android:textSize="16dp"
+                android:textColor="@color/black_dark"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="Medicines  "
+                android:textSize="16dp"
+                android:textColor="@color/black_dark"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+
+                android:layout_marginLeft="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+            <ImageView
+                android:src="@drawable/saleicon"
+                android:layout_marginLeft="20dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"/>
+
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_margin="5dp"
+        android:gravity="center"
+        app:cardBackgroundColor="@color/whiteColor"
+        android:layout_width="180dp"
+        android:layout_height="150dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+
+                android:orientation="vertical"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:src="@drawable/pillsm"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_gravity="center"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"/>
+
+
+
+                <TextView
+                    android:text="Order  "
+                    android:textSize="16dp"
+                    android:textColor="@color/black_dark"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:text="Medicines  "
+                    android:textSize="16dp"
+                    android:textColor="@color/black_dark"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+
+                    android:layout_marginLeft="25dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <ImageView
+                android:src="@drawable/saleicon"
+                android:layout_marginLeft="20dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"/>
+
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
+
+
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.cardview.widget.CardView
+                android:layout_margin="5dp"
+                android:gravity="center"
+                app:cardBackgroundColor="@color/whiteColor"
+                android:layout_width="180dp"
+                android:layout_height="150dp">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+
+                        android:orientation="vertical"
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:src="@drawable/pills"
+                            android:layout_marginLeft="25dp"
+                            android:layout_marginTop="30dp"
+                            android:layout_gravity="center"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"/>
+
+
+
+                        <TextView
+                            android:text="Order  "
+                            android:textSize="16dp"
+                            android:textColor="@color/black_dark"
+                            android:textStyle="bold"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="25dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:text="Medicines  "
+                            android:textSize="16dp"
+                            android:textColor="@color/black_dark"
+                            android:textStyle="bold"
+                            android:layout_gravity="center"
+
+                            android:layout_marginLeft="25dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:src="@drawable/saleicon"
+                        android:layout_marginLeft="20dp"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"/>
+
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_margin="5dp"
+                android:gravity="center"
+                app:cardBackgroundColor="@color/whiteColor"
+                android:layout_width="180dp"
+                android:layout_height="150dp">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+
+                        android:orientation="vertical"
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:src="@drawable/pil"
+                            android:layout_marginLeft="25dp"
+                            android:layout_marginTop="30dp"
+                            android:layout_gravity="center"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"/>
+
+
+
+                        <TextView
+                            android:text="Order  "
+                            android:textSize="16dp"
+                            android:textColor="@color/black_dark"
+                            android:textStyle="bold"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="25dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:text="Medicines  "
+                            android:textSize="16dp"
+                            android:textColor="@color/black_dark"
+                            android:textStyle="bold"
+                            android:layout_gravity="center"
+
+                            android:layout_marginLeft="25dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:src="@drawable/saleicon"
+                        android:layout_marginLeft="20dp"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"/>
+
+
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+        <TextView
+            android:textColor="@color/black_dark"
+            android:layout_marginTop="20dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            android:text="Recommended Diagnostic Tests"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:textColor="@color/black_dark"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            android:text="Free Sample Pickup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <HorizontalScrollView
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            app:cardBackgroundColor="@color/card"
+            android:layout_width="290dp"
+            android:layout_height="150dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+
+
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:text="Blood sugar fasting  "
+                        android:textSize="22dp"
+                        android:textColor="@color/black_dark"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="25dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:text="Avaliable at 1 certified lab  "
+                        android:textSize="14dp"
+                        android:textColor="@color/sky"
+
+                        android:layout_marginLeft="35dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:text="Rs 25 "
+        android:textStyle="bold"
+        android:textColor="@color/black_dark"
+        android:textSize="14dp" />
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:background="@drawable/roundedbutton"
+        android:text=" Book Now"
+        android:textSize="13dp"
+        android:layout_marginLeft="50dp"
+        android:textColor="@color/whiteColor"
+        android:textStyle="italic" />
+
+
+
+</LinearLayout>
+
+
+
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:layout_marginLeft="30dp"
+                app:cardBackgroundColor="@color/card"
+                android:layout_width="290dp"
+                android:layout_height="150dp">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+
+
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:text="Urine routine data "
+                            android:textSize="22dp"
+                            android:textColor="@color/black_dark"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="35dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:text="Avaliable at 1 certified lab  "
+                            android:textSize="14dp"
+                            android:textColor="@color/sky"
+
+                            android:layout_marginLeft="35dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="10dp"
+                            android:text="Rs 60 "
+                            android:textStyle="bold"
+                            android:textColor="@color/black_dark"
+                            android:textSize="14dp" />
+
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:layout_width="130dp"
+                            android:layout_height="40dp"
+                            android:background="@drawable/roundedbutton"
+                            android:text=" Book Now"
+                            android:textSize="13dp"
+                            android:layout_marginLeft="50dp"
+                            android:textColor="@color/whiteColor"
+                            android:textStyle="italic" />
+
+
+
+                    </LinearLayout>
+
+
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:layout_marginLeft="30dp"
+                app:cardBackgroundColor="@color/card"
+                android:layout_width="290dp"
+                android:layout_height="150dp">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+
+
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:text="Hba 1C  "
+                            android:textSize="22dp"
+                            android:textColor="@color/black_dark"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="80dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:text="Avaliable at 1 certified lab  "
+                            android:textSize="14dp"
+                            android:textColor="@color/sky"
+
+                            android:layout_marginLeft="35dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="10dp"
+                            android:text="Rs 70 "
+                            android:textStyle="bold"
+                            android:textColor="@color/black_dark"
+                            android:textSize="14dp" />
+
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:layout_width="130dp"
+                            android:layout_height="40dp"
+                            android:background="@drawable/roundedbutton"
+                            android:text=" Book Now"
+                            android:textSize="13dp"
+                            android:layout_marginLeft="50dp"
+                            android:textColor="@color/whiteColor"
+                            android:textStyle="italic" />
+
+
+
+                    </LinearLayout>
+
+
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:layout_marginLeft="30dp"
+                app:cardBackgroundColor="@color/card"
+                android:layout_width="290dp"
+                android:layout_height="150dp">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+
+
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:text="Ferritin "
+                            android:textSize="22dp"
+                            android:textColor="@color/black_dark"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="80dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:text="Avaliable at 1 certified lab  "
+                            android:textSize="14dp"
+                            android:textColor="@color/sky"
+
+                            android:layout_marginLeft="35dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="10dp"
+                            android:text="Rs 25 "
+                            android:textStyle="bold"
+                            android:textColor="@color/black_dark"
+                            android:textSize="14dp" />
+
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:layout_width="130dp"
+                            android:layout_height="40dp"
+                            android:background="@drawable/roundedbutton"
+                            android:text=" Book Now"
+                            android:textSize="13dp"
+                            android:layout_marginLeft="50dp"
+                            android:textColor="@color/whiteColor"
+                            android:textStyle="italic" />
+
+
+
+                    </LinearLayout>
+
+
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:layout_marginLeft="30dp"
+                app:cardBackgroundColor="@color/card"
+                android:layout_width="290dp"
+                android:layout_height="150dp">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+
+
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:text="Blood sugar fasting  "
+                            android:textSize="22dp"
+                            android:textColor="@color/black_dark"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="25dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:text="Avaliable at 1 certified lab  "
+                            android:textSize="14dp"
+                            android:textColor="@color/sky"
+
+                            android:layout_marginLeft="35dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="10dp"
+                            android:text="Rs 25 "
+                            android:textStyle="bold"
+                            android:textColor="@color/black_dark"
+                            android:textSize="14dp" />
+
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:layout_width="130dp"
+                            android:layout_height="40dp"
+                            android:background="@drawable/roundedbutton"
+                            android:text=" Book Now"
+                            android:textSize="13dp"
+                            android:layout_marginLeft="50dp"
+                            android:textColor="@color/whiteColor"
+                            android:textStyle="italic" />
+
+
+
+                    </LinearLayout>
+
+
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+
+        </LinearLayout>
+
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            android:background="@color/whiteColor"
+            android:layout_width="match_parent"
+            android:layout_height="180dp">
+
+            <TextView
+                android:textColor="@color/black_dark"
+                android:layout_marginTop="20dp"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="30dp"
+                android:text="Featured Brands"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <HorizontalScrollView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="120dp">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                <ImageView
+                    android:src="@drawable/sugar"
+                    android:layout_marginLeft="30dp"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"/>
+
+                    <TextView
+                        android:text="Accu-chek "
+                        android:textSize="14dp"
+                        android:layout_marginLeft="40dp"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:src="@drawable/sugarone"
+                        android:layout_marginLeft="30dp"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"/>
+
+                    <TextView
+                        android:text="One Touch "
+                        android:textSize="14dp"
+                        android:layout_marginLeft="40dp"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:src="@drawable/sugar"
+                        android:layout_marginLeft="30dp"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"/>
+
+                    <TextView
+                        android:text="Sugar free "
+                        android:textSize="14dp"
+                        android:layout_marginLeft="40dp"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:src="@drawable/sugarone"
+                        android:layout_marginLeft="30dp"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"/>
+
+                    <TextView
+                        android:text="Protinex "
+                        android:textSize="14dp"
+                        android:layout_marginLeft="40dp"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:src="@drawable/sugar"
+                        android:layout_marginLeft="30dp"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"/>
+
+                    <TextView
+                        android:text="Accu-chek "
+                        android:textSize="14dp"
+                        android:layout_marginLeft="40dp"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            </HorizontalScrollView>
+
+
+
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_margin="10dp"
+            app:cardCornerRadius="10dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:layout_marginLeft="30dp"
+            app:cardBackgroundColor="@color/whiteColor"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+           <LinearLayout
+               android:orientation="horizontal"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent">
+
+               <ImageView
+                   android:layout_weight="1"
+                   android:layout_marginTop="30dp"
+                   android:src="@drawable/pills"
+                   android:layout_width="40dp"
+                   android:layout_height="40dp"/>
+
+               <LinearLayout
+                   android:layout_weight="1"
+                   android:layout_marginTop="30dp"
+                   android:layout_marginLeft="20dp"
+                   android:orientation="vertical"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content">
+
+
+                   <TextView
+                       android:text="Special Offers  "
+                       android:textSize="16dp"
+                       android:textColor="@color/black_dark"
+                       android:textStyle="bold"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"/>
+
+                   <TextView
+                       android:text="Exclusive savings just for you "
+                       android:textSize="14dp"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"/>
+
+
+
+               </LinearLayout>
+
+               <ImageView
+                   android:layout_weight="1"
+                   android:layout_marginTop="30dp"
+                   android:src="@drawable/ic_chevron_right_black_24dp"
+                   android:layout_width="40dp"
+                   android:layout_height="40dp"/>
+
+
+           </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_margin="10dp"
+            app:cardCornerRadius="10dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:layout_marginLeft="30dp"
+            app:cardBackgroundColor="@color/whiteColor"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_marginTop="30dp"
+                    android:src="@drawable/pillsm"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"/>
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+
+                    <TextView
+                        android:text="Special Offers  "
+                        android:textSize="16dp"
+                        android:textColor="@color/black_dark"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:text="Exclusive savings just for you "
+                        android:textSize="14dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_marginTop="30dp"
+                    android:src="@drawable/ic_chevron_right_black_24dp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"/>
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_margin="10dp"
+            app:cardCornerRadius="10dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:layout_marginLeft="30dp"
+            app:cardBackgroundColor="@color/whiteColor"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_marginTop="30dp"
+                    android:src="@drawable/pills"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"/>
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+
+                    <TextView
+                        android:text="Special Offers  "
+                        android:textSize="16dp"
+                        android:textColor="@color/black_dark"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:text="Exclusive savings just for you "
+                        android:textSize="14dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_marginTop="30dp"
+                    android:src="@drawable/ic_chevron_right_black_24dp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"/>
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_margin="10dp"
+            app:cardCornerRadius="10dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:layout_marginLeft="30dp"
+            app:cardBackgroundColor="@color/whiteColor"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_marginTop="30dp"
+                    android:src="@drawable/pillsm"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"/>
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+
+                    <TextView
+                        android:text="Special Offers  "
+                        android:textSize="16dp"
+                        android:textColor="@color/black_dark"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:text="Exclusive savings just for you "
+                        android:textSize="14dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_marginTop="30dp"
+                    android:src="@drawable/ic_chevron_right_black_24dp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"/>
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_margin="10dp"
+            app:cardCornerRadius="10dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:layout_marginLeft="30dp"
+            app:cardBackgroundColor="@color/whiteColor"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_marginTop="30dp"
+                    android:src="@drawable/pills"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"/>
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+
+                    <TextView
+                        android:text="Special Offers  "
+                        android:textSize="16dp"
+                        android:textColor="@color/black_dark"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:text="Exclusive savings just for you "
+                        android:textSize="14dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_marginTop="30dp"
+                    android:src="@drawable/ic_chevron_right_black_24dp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"/>
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+        <TextView
+            android:layout_marginTop="40dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

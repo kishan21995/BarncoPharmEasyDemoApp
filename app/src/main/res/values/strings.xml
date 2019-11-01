@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">BarncoPharma</string>
+
+    <string name="title_shop">Shop</string>
+    <string name="title_gifts">Gifts</string>
+    <string name="title_cart">Cart</string>
+    <string name="title_profile">Profile</string>
+
+    <string name="home">Home</string>
+    <string name="reminders">Reminders</string>
+    <string name="articals">Articals</string>
+    <string name="notifications">Notifications</string>
+    <string name="account">Account</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="order">Order Medicines at FLAT 20 % OFF + Extra 10 %
+        OFF and that not all Get Paypal cashback up to Rs. 600 Code: PAyL30 * T and C </string>
+
+    <string name="step1">Step 1 - Add to cart</string>
+    <string name="step2"> Step 2 - Apply code: PHON30</string>
+    <string name="step3"> Step 2 -   Step 3 - Place your order</string>
+
+
+</resources>

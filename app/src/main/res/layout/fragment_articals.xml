@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".ArticalsFragment">
+
+
+
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+            android:layout_margin="10dp"
+            app:cardCornerRadius="10dp"
+            android:layout_marginLeft="20dp"
+            app:cardBackgroundColor="@color/whiteColor"
+            android:layout_width="100dp"
+            android:layout_height="100dp">
+
+           <ImageView
+               android:src="@drawable/pil"
+               android:layout_gravity="center"
+               android:layout_width="40dp"
+               android:layout_height="40dp"/>
+
+            <TextView
+                android:text="Anaemia  "
+                android:textSize="14dp"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center"
+                android:textColor="@color/lightGreen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_margin="10dp"
+            app:cardCornerRadius="10dp"
+            android:layout_marginLeft="20dp"
+            app:cardBackgroundColor="@color/whiteColor"
+            android:layout_width="100dp"
+            android:layout_height="100dp">
+
+            <ImageView
+                android:src="@drawable/pills"
+                android:layout_gravity="center"
+                android:layout_width="40dp"
+                android:layout_height="40dp"/>
+
+            <TextView
+                android:text="Arthritis  "
+                android:textSize="14dp"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center"
+                android:textColor="@color/lightGreen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_margin="10dp"
+            app:cardCornerRadius="10dp"
+            android:layout_marginLeft="20dp"
+            app:cardBackgroundColor="@color/whiteColor"
+            android:layout_width="100dp"
+            android:layout_height="100dp">
+
+            <ImageView
+                android:src="@drawable/blood"
+                android:layout_gravity="center"
+                android:layout_width="40dp"
+                android:layout_height="40dp"/>
+
+            <TextView
+                android:text="Asthma  "
+                android:textSize="14dp"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center"
+                android:textColor="@color/lightGreen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+            android:layout_margin="10dp"
+            app:cardCornerRadius="10dp"
+            android:layout_marginLeft="20dp"
+            app:cardBackgroundColor="@color/whiteColor"
+            android:layout_width="100dp"
+            android:layout_height="100dp">
+
+            <ImageView
+                android:src="@drawable/boy"
+                android:layout_gravity="center"
+                android:layout_width="40dp"
+                android:layout_height="40dp"/>
+
+            <TextView
+                android:text="Child Care "
+                android:textSize="14dp"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center"
+                android:textColor="@color/lightGreen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_margin="10dp"
+            app:cardCornerRadius="10dp"
+            android:layout_marginLeft="20dp"
+            app:cardBackgroundColor="@color/whiteColor"
+            android:layout_width="100dp"
+            android:layout_height="100dp">
+
+            <ImageView
+                android:src="@drawable/pillsm"
+                android:layout_gravity="center"
+                android:layout_width="40dp"
+                android:layout_height="40dp"/>
+
+            <TextView
+                android:text="Chronic "
+                android:textSize="14dp"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center"
+                android:textColor="@color/lightGreen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_margin="10dp"
+            app:cardCornerRadius="10dp"
+            android:layout_marginLeft="20dp"
+            app:cardBackgroundColor="@color/whiteColor"
+            android:layout_width="100dp"
+            android:layout_height="100dp">
+
+            <ImageView
+                android:src="@drawable/drug"
+                android:layout_gravity="center"
+                android:layout_width="40dp"
+                android:layout_height="40dp"/>
+
+            <TextView
+                android:text="Diabetes  "
+                android:textSize="14dp"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center"
+                android:textColor="@color/lightGreen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+            android:layout_margin="10dp"
+            app:cardCornerRadius="10dp"
+            android:layout_marginLeft="20dp"
+            app:cardBackgroundColor="@color/whiteColor"
+            android:layout_width="100dp"
+            android:layout_height="100dp">
+
+            <ImageView
+                android:src="@drawable/conversation"
+                android:layout_gravity="center"
+                android:layout_width="40dp"
+                android:layout_height="40dp"/>
+
+            <TextView
+                android:text="Doctors   "
+                android:textSize="14dp"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center"
+                android:textColor="@color/lightGreen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_margin="10dp"
+            app:cardCornerRadius="10dp"
+            android:layout_marginLeft="20dp"
+            app:cardBackgroundColor="@color/whiteColor"
+            android:layout_width="100dp"
+            android:layout_height="100dp">
+
+            <ImageView
+                android:src="@drawable/emergency"
+                android:layout_gravity="center"
+                android:layout_width="40dp"
+                android:layout_height="40dp"/>
+
+            <TextView
+                android:text="Health Today  "
+                android:textSize="14dp"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center"
+                android:textColor="@color/lightGreen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_margin="10dp"
+            app:cardCornerRadius="10dp"
+            android:layout_marginLeft="20dp"
+            app:cardBackgroundColor="@color/whiteColor"
+            android:layout_width="100dp"
+            android:layout_height="100dp">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:src="@drawable/pills" />
+
+            <TextView
+                android:text="Home remind "
+                android:textSize="14dp"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center"
+                android:textColor="@color/lightGreen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="10dp"
+                    android:layout_marginLeft="20dp"
+                    app:cardBackgroundColor="@color/whiteColor"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp">
+
+                    <ImageView
+                        android:src="@drawable/newiconn"
+                        android:layout_gravity="center"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"/>
+
+                    <TextView
+                        android:text="Chronic   "
+                        android:textSize="14dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_gravity="center"
+                        android:textColor="@color/lightGreen"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="10dp"
+                    android:layout_marginLeft="20dp"
+                    app:cardBackgroundColor="@color/whiteColor"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp">
+
+                    <ImageView
+                        android:src="@drawable/drug"
+                        android:layout_gravity="center"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"/>
+
+                    <TextView
+                        android:text="Anaemia  "
+                        android:textSize="14dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_gravity="center"
+                        android:textColor="@color/lightGreen"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="10dp"
+                    android:layout_marginLeft="20dp"
+                    app:cardBackgroundColor="@color/whiteColor"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="48dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/pil" />
+
+                    <TextView
+                        android:text="Asthma "
+                        android:textSize="14dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_gravity="center"
+                        android:textColor="@color/lightGreen"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
